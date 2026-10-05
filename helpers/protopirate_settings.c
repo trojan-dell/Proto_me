@@ -17,7 +17,7 @@ void protopirate_settings_set_defaults(ProtoPirateSettings* settings) {
     settings->tx_power = 0;
     settings->auto_save = false;
     settings->sound = false;
-    settings->emulate_feature_enabled = false;
+    settings->emulate_feature_enabled = true;
     settings->check_saved = false;
     settings->datetime_filenames = false;
     settings->hopper_state = 0;
