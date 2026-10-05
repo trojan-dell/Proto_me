@@ -90,6 +90,7 @@ ProtoPirateApp* protopirate_app_alloc() {
     // Load saved settings
     ProtoPirateSettings settings;
     protopirate_settings_load(&settings);
+    settings.emulate_feature_enabled = true;
 
     // Apply auto-save setting
     app->auto_save = settings.auto_save;
